@@ -15,4 +15,4 @@ end
 require("core.mappings").misc()
 
 -- try to call custom init
-pcall(require, "custom")
+require("custom")
